@@ -1,4 +1,4 @@
-// The story of SOLMAR HEAT. Jax Vega, a driver fresh off the ferry, works for
+// The story of LA VEGA. Jax Vega, a driver fresh off the ferry, works for
 // La Rosa, the fixer who runs the club on Marlin Row. Five jobs, all original.
 
 const MISSIONS = [
@@ -12,7 +12,7 @@ const MISSIONS = [
       { type: 'steal', text: 'Steal a parked car (press E near one)', marker: null },
       { type: 'deliver', text: "Drive it to Manny's Garage", marker: PLACES.garage, needCar: true },
     ],
-    onComplete: 'Nice wheels. La Rosa slips you a pistol and $300. Welcome to Solmar Bay.',
+    onComplete: 'Nice wheels. La Rosa slips you a pistol and $300. Welcome to La Vega.',
   },
   {
     id: 2,
@@ -51,18 +51,18 @@ const MISSIONS = [
   },
   {
     id: 5,
-    name: 'The Solmar Score',
+    name: 'The La Vega Score',
     giver: 'La Rosa',
     intro: "La Rosa: 'One last run, Jax. Five drops across the whole city before the clock runs out. Drive like the sun is chasing you.'",
     reward: 1200,
     steps: [
       { type: 'checkpoint', text: 'Checkpoint 1/5 — Marina Gate', marker: { x: 520, y: 520 }, time: 150 },
       { type: 'checkpoint', text: 'Checkpoint 2/5 — Palm Court Park', marker: { x: 1040, y: 780 }, time: 150 },
-      { type: 'checkpoint', text: 'Checkpoint 3/5 — Solmar General', marker: { x: 2080, y: 520 }, time: 150 },
+      { type: 'checkpoint', text: 'Checkpoint 3/5 — La Vega General', marker: { x: 2080, y: 520 }, time: 150 },
       { type: 'checkpoint', text: 'Checkpoint 4/5 — South Docks', marker: { x: 520, y: 2340 }, time: 150 },
       { type: 'checkpoint', text: 'Final drop — La Rosa\'s Club', marker: PLACES.club, time: 150 },
     ],
-    onComplete: 'THE SOLMAR SCORE! $1,200. You own this city, Jax Vega.',
+    onComplete: 'THE LA VEGA SCORE! $1,200. You own this city, Jax Vega.',
   },
 ];
 
@@ -74,7 +74,7 @@ function currentStep(mission) {
 
 function objectiveText(state) {
   if (state.mission.index < 0) {
-    if (state.missionAvailable >= MISSIONS.length) return 'All jobs done — Solmar Bay is yours. Free roam!';
+    if (state.missionAvailable >= MISSIONS.length) return 'All jobs done — La Vega is yours. Free roam!';
     const next = MISSIONS[state.missionAvailable];
     return `Next job: ${next.name} — visit La Rosa at the club (press E)`;
   }

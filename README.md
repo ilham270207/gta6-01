@@ -1,9 +1,9 @@
-# SOLMAR HEAT
+# LA VEGA
 
-An open-world crime game in the sun-baked coastal city of **Solmar Bay**.
+An open-world crime game in the sun-baked coastal city of **La Vega**.
 You are **Jax Vega**, a driver fresh off the ferry. **La Rosa**, the fixer who
 runs the club on Marlin Row, has five jobs for you — steal cars, run packages,
-shake the cops, settle a score with the Vultures, and pull off the Solmar
+shake the cops, settle a score with the Vultures, and pull off the La Vega
 Score across the whole city.
 
 Everything is original: the city, the characters, the cars, the story, the
@@ -42,9 +42,9 @@ menu. **Continue** on the title screen picks up where you left off.
 
 ## The city
 
-Solmar Bay is a 2600×2600 open world: a grid of streets with traffic and
-pedestrians, colourful blocks, Palm Court Park, Solmar Beach and the sea,
-Pier 9 and the docks, Manny's Garage, the old cannery warehouse and Solmar
+La Vega is a 2600×2600 open world: a grid of streets with traffic and
+pedestrians, colourful blocks, Palm Court Park, La Vega Beach and the sea,
+Pier 9 and the docks, Manny's Garage, the old cannery warehouse and La Vega
 General hospital. A live minimap tracks you, the police and your job marker.
 
 ## Wanted
@@ -52,7 +52,7 @@ General hospital. A live minimap tracks you, the police and your job marker.
 Stealing cars, shooting and hitting pedestrians raise your wanted level
 (0–5 stars). Police cruisers chase and ram you; foot cops chase you down
 on the street. Lay low and stay out of sight and the heat cools off. Get
-busted or wasted and you wake up at Solmar General, lighter in the wallet.
+busted or wasted and you wake up at La Vega General, lighter in the wallet.
 
 ## The five jobs
 
@@ -63,7 +63,7 @@ busted or wasted and you wake up at Solmar General, lighter in the wallet.
 3. **Shake the Tail** — lose a two-star wanted level. Reward: $400.
 4. **Warehouse Payback** — deal with four Vultures at the old cannery.
    Reward: $700.
-5. **The Solmar Score** — five checkpoints across the whole city against
+5. **The La Vega Score** — five checkpoints across the whole city against
    the clock. Reward: $1,200.
 
 ## Screenshots

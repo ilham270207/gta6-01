@@ -1,4 +1,4 @@
-// SOLMAR HEAT — world: city generation, physics, traffic, pedestrians, police,
+// LA VEGA — world: city generation, physics, traffic, pedestrians, police,
 // wanted system, combat, missions. Deterministic: every random choice comes from
 // the seeded rng, so ?shot= scenes replay identically.
 
@@ -366,7 +366,7 @@ function createWorld(rng, seed) {
     state.cops = [];
     for (const c of state.cars) if (c.driver === 'police') c.driver = 'none';
     state.respawn = { active: true, timer: 2.5, kind: 'BUSTED' };
-    say('BUSTED! The Solmar PD took $150 in fines.', 3);
+    say('BUSTED! The La Vega PD took $150 in fines.', 3);
     sound('busted');
   }
 
@@ -1017,7 +1017,7 @@ function createWorld(rng, seed) {
 
     if (step.type === 'checkpoint' || def.id === 5) {
       state.mission.timer -= dt;
-      if (state.mission.timer <= 0) { failMission('Out of time on The Solmar Score.'); return; }
+      if (state.mission.timer <= 0) { failMission('Out of time on The La Vega Score.'); return; }
     }
     if (def.id === 3) {
       state.mission.timer -= dt;

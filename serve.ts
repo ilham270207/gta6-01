@@ -1,4 +1,4 @@
-// SOLMAR HEAT — tiny static dev server (Node 22, standard library only).
+// LA VEGA — tiny static dev server (Node 22, standard library only).
 // Serves this directory on http://localhost:8080 so the game can be played and
 // screenshotted locally. No dependencies, no network requests beyond localhost.
 import { createServer } from 'node:http';
@@ -43,5 +43,5 @@ const server = createServer((req, res) => {
 });
 
 server.listen(port, () => {
-  console.log(`SOLMAR HEAT dev server: http://localhost:${port}  (game at / and /game/)`);
+  console.log(`LA VEGA dev server: http://localhost:${port}  (game at / and /game/)`);
 });

@@ -1,4 +1,4 @@
-// SOLMAR HEAT — boot and the one loop. Fixed 1/60 s steps, title / play /
+// LA VEGA — boot and the one loop. Fixed 1/60 s steps, title / play /
 // paused screens, save/load, procedural audio, and the ?shot= scene stager.
 //
 // ?seed=N fixes the world. ?shot=cover|chase|mission|city (with &seed=N) stages
@@ -60,7 +60,7 @@ function runGame() {
     accumulator = 0;
     screen = SCREEN_PLAY;
     audio.unlock();
-    announce('Playing Solmar Heat. Visit La Rosa at the club to start a job.');
+    announce('Playing La Vega. Visit La Rosa at the club to start a job.');
   }
 
   function menuAction() {
@@ -132,7 +132,7 @@ function runGame() {
       selected = 0;
       howTo = false;
       saved = hasSave();
-      announce('Solmar Heat. Press Enter or click to start.');
+      announce('La Vega. Press Enter or click to start.');
     }
   });
 
@@ -220,7 +220,7 @@ function runGame() {
     }
   });
 
-  announce('Solmar Heat. Press Enter or click to start.');
+  announce('La Vega. Press Enter or click to start.');
   requestAnimationFrame(frame);
 }
 

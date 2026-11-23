@@ -1,4 +1,4 @@
-// SOLMAR HEAT — canvas renderer. Warm sun-baked palette, soft shadows, a live
+// LA VEGA — canvas renderer. Warm sun-baked palette, soft shadows, a live
 // minimap, and full HUD. Pure drawing: reads state, never mutates it.
 
 const SCREEN_TITLE = 'title';
@@ -483,7 +483,7 @@ function createRenderer(canvas) {
     ctx.stroke();
     ctx.restore();
     ctx.restore();
-    text('SOLMAR BAY', x + size / 2, y - 8, 11, '#fff', 'center');
+    text('LA VEGA', x + size / 2, y - 8, 11, '#fff', 'center');
   }
 
   function drawHUD(state) {
@@ -606,8 +606,8 @@ function createRenderer(canvas) {
     ctx.arc(viewW - 180, 110, 70, 0, TAU);
     ctx.fill();
 
-    text('SOLMAR HEAT', viewW / 2, viewH * 0.3, 72, '#ffd23c', 'center');
-    text('An open-world crime story in Solmar Bay', viewW / 2, viewH * 0.3 + 44, 22, '#fff', 'center', false);
+    text('LA VEGA', viewW / 2, viewH * 0.3, 72, '#ffd23c', 'center');
+    text('An open-world crime story in La Vega', viewW / 2, viewH * 0.3 + 44, 22, '#fff', 'center', false);
     text('Jax Vega  •  La Rosa  •  Five jobs  •  One very hot city', viewW / 2, viewH * 0.3 + 74, 15, '#ffe9a3', 'center', false);
 
     const items = hasSave ? ['New Game', 'Continue', 'How to play'] : ['New Game', 'How to play'];
@@ -633,15 +633,15 @@ function createRenderer(canvas) {
     ctx.fillRect(0, 0, viewW, viewH);
     text('HOW TO PLAY', viewW / 2, 120, 40, '#ffd23c', 'center');
     const lines = [
-      'You are Jax Vega, a driver fresh off the ferry in Solmar Bay.',
+      'You are Jax Vega, a driver fresh off the ferry in La Vega.',
       'La Rosa runs the club on Marlin Row — she has five jobs for you.',
       '',
       'On foot: WASD to move, SHIFT to run, SPACE to punch, F to shoot.',
       'Near a parked car: press E to get in. That is stealing. Cops notice.',
       'In a car: W/S to drive and brake, A/D to steer. Hard turns leave skid marks.',
       '',
-      'Stars mean the Solmar PD wants you. Lose them by hiding and laying low.',
-      'Busted or wasted: you wake up at Solmar General, lighter in the wallet.',
+      'Stars mean the La Vega PD wants you. Lose them by hiding and laying low.',
+      'Busted or wasted: you wake up at La Vega General, lighter in the wallet.',
       'Finish all five jobs to own the city. Your progress auto-saves.',
       '',
       'Press Enter or click to go back.',

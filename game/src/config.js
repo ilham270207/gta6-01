@@ -1,7 +1,7 @@
-// SOLMAR HEAT — configuration. All original: a sun-baked coastal city, Solmar Bay.
+// LA VEGA — configuration. All original: a sun-baked coastal city, La Vega.
 // No external assets, no network requests, plain canvas 2D.
 const STEP = 1 / 60;
-const SAVE_KEY = 'solmar-heat-save-v1';
+const SAVE_KEY = 'la-vega-save-v1';
 
 const WORLD = {
   size: 2600,
@@ -34,16 +34,16 @@ const PALETTE = {
   pierDark: '#8a5f3c',
 };
 
-// Key places in Solmar Bay (all original names).
+// Key places in La Vega (all original names).
 const PLACES = {
   club: { x: 1560, y: 1040, name: "La Rosa's Club" },
   garage: { x: 780, y: 1560, name: "Manny's Garage" },
   warehouse: { x: 520, y: 2080, name: 'Old Cannery Warehouse' },
-  hospital: { x: 2080, y: 520, name: 'Solmar General' },
+  hospital: { x: 2080, y: 520, name: 'La Vega General' },
   pierPickup: { x: 82, y: 1300, name: 'Pier 9 Drop' },
   dock: { x: 235, y: 1300, name: 'The Docks' },
   park: { x: 1040, y: 780, name: 'Palm Court Park' },
-  beach: { x: 230, y: 780, name: 'Solmar Beach' },
+  beach: { x: 230, y: 780, name: 'La Vega Beach' },
 };
 
 // Car models: length, width, accel, top speed, turn rate, base colours.

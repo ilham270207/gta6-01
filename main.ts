@@ -1,4 +1,4 @@
-// SOLMAR HEAT — make.fun gta6-01 entry (Node 22, standard library only).
+// LA VEGA — make.fun gta6-01 entry (Node 22, standard library only).
 // The game is this directory's game/ folder: plain static files a desktop browser
 // loads offline (game/index.html and its plain scripts, no library, no network
 // request). This program hands it in: it copies game/ and screenshots/ from
